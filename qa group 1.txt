@@ -7,4 +7,11 @@ int main() {
 int main() {
     int a = 10, b = 20;
     std::cout << a + b;
-}
+}#include <iostream>
+#include <string>
+int main() 
+    std::string name;
+    int age;
+
+    std::cout << "Enter your name: ";
+    std::cin >> name;
