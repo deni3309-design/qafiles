@@ -1,0 +1,94 @@
+/* Main page styles */
+body {
+    background-color: #a7b8d3;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    margin: 0;
+}
+
+/* Header */
+#header {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Main title */
+.main-title {
+    font-size: 36px;
+}
+
+/* Navigation */
+.navigation {
+    margin-top: 20px;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+}
+
+/* Main container */
+.container {
+    background-color: white;
+    width: 70%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* Section titles */
+.section-title {
+    color: #2563eb;
+    font-size: 24px;
+}
+
+/* Profile image */
+.profile-image {
+    border-radius: 10px;
+    border: 3px solid #2563eb;
+}
+
+/* Description */
+.description {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Skills and hobbies */
+.skills-list,
+.hobbies-list {
+    font-size: 17px;
+    line-height: 1.8;
+}
+/* Contact page */
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}/* Gallery page */
+.gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.gallery-photo {
+    width: 320px;
+    height: 250px;
+    object-fit: contain;
+    border-radius: 10px;
+    border: 2px solid #2563eb;
+}
